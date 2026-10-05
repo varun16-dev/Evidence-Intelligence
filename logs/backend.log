@@ -1,0 +1,745 @@
+[2026-10-04 19:23:28,841] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:23:29,999] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-04 19:23:30,138] [INFO] [evidence_intelligence:14] Database tables verified.
+[2026-10-04 19:23:30,171] [WARNING] [passlib.handlers.bcrypt:622] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\micva\AppData\Local\Programs\Python\Python314\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+[2026-10-04 19:24:22,355] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:24:22,512] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-04 19:24:22,520] [INFO] [evidence_intelligence:14] Database tables verified.
+[2026-10-04 19:24:23,005] [INFO] [evidence_intelligence:28] Created default administrator: admin / admin123
+[2026-10-04 19:24:23,560] [INFO] [evidence_intelligence:41] Created default compliance officer: officer_rajesh / officer123
+[2026-10-04 19:24:23,566] [INFO] [evidence_intelligence:56] Created default training centre: TC-DL-OKHLA-04
+[2026-10-04 19:24:23,571] [INFO] [evidence_intelligence:83] Created default room: ROOM-101 (CAM-LAB-01)
+[2026-10-04 19:24:23,574] [INFO] [evidence_intelligence:103] Created default room: ROOM-102 (CAM-WRK-02)
+[2026-10-04 19:24:23,579] [INFO] [evidence_intelligence:123] Created active authoritative schedule for ROOM-101
+[2026-10-04 19:24:23,610] [INFO] [evidence_intelligence:126] Database initialization and seed complete.
+[2026-10-04 19:24:52,294] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:24:53,049] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 19:24:53,059] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 19:24:53,503] [ERROR] [evidence_intelligence:32] Database session error: name 'settings' is not defined
+[2026-10-04 19:25:34,049] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:25:34,698] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 19:25:34,707] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 19:25:35,185] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-04 19:25:35,190] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-04 19:25:35,199] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-04 19:25:35,206] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-04 19:25:35,235] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-04 19:25:35,263] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-24692/cameras "HTTP/1.1 201 Created"
+[2026-10-04 19:25:35,284] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-24692/zones "HTTP/1.1 200 OK"
+[2026-10-04 19:45:05,318] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:46:21,579] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:46:27,584] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-04 19:46:40,278] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-04 19:46:40,278] [INFO] [evidence_intelligence:37] EdgeAIPipeline assembled and ready.
+[2026-10-04 19:46:40,346] [INFO] [evidence_intelligence:44] Opened video stream: d:\Evidence Intelligence\backend\test_videos\scenario_persistent.mp4 (Target inference FPS: 3.0)
+[2026-10-04 19:47:10,010] [INFO] [evidence_intelligence:74] Video source reached end of stream after 200 frames.
+[2026-10-04 19:47:10,031] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-04 19:47:26,707] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:47:33,269] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-04 19:47:33,434] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-04 19:47:33,435] [INFO] [evidence_intelligence:37] EdgeAIPipeline assembled and ready.
+[2026-10-04 19:47:33,450] [INFO] [evidence_intelligence:44] Opened video stream: d:\Evidence Intelligence\backend\test_videos\scenario_persistent.mp4 (Target inference FPS: 3.0)
+[2026-10-04 19:47:40,709] [INFO] [evidence_intelligence:74] Video source reached end of stream after 200 frames.
+[2026-10-04 19:47:40,721] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-04 19:48:58,288] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:49:04,853] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-04 19:49:05,022] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-04 19:49:05,023] [INFO] [evidence_intelligence:37] EdgeAIPipeline assembled and ready.
+[2026-10-04 19:49:05,039] [INFO] [evidence_intelligence:44] Opened video stream: d:\Evidence Intelligence\backend\test_videos\scenario_persistent.mp4 (Target inference FPS: 3.0)
+[2026-10-04 19:49:48,649] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:49:48,649] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-04 19:49:48,824] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-04 19:52:56,589] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:52:59,427] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-04 19:52:59,486] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-04 19:52:59,486] [INFO] [evidence_intelligence:37] EdgeAIPipeline assembled and ready.
+[2026-10-04 19:52:59,497] [INFO] [evidence_intelligence:44] Opened video stream: d:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-04 19:53:52,079] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 19:53:52,951] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 19:53:52,976] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 19:53:53,396] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-04 19:53:53,403] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-04 19:53:53,416] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-04 19:53:53,423] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-04 19:53:53,449] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-04 19:53:53,476] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-17060/cameras "HTTP/1.1 201 Created"
+[2026-10-04 19:53:53,497] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-17060/zones "HTTP/1.1 200 OK"
+[2026-10-04 20:01:29,720] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:01:30,453] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:32:30,794] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:32:44,802] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:32:55,441] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:34:21,785] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:00:46,424] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:00:46,543] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-04 21:00:46,575] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-04 21:00:46,597] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-04 21:27:10,548] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:27:11,224] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-04 21:27:11,224] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-04 21:27:11,234] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-04 21:27:11,255] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-04 21:45:49,379] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:45:50,097] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:45:50,142] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:45:50,156] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-7AB37A399EE3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:45:50,182] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-7AB37A399EE3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:45:50,219] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-7AB37A399EE3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:45:50,246] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-7AB37A399EE3/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 21:45:50,254] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports?verdict=REVIEW "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,077] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:45:59,641] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,687] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:45:59,688] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,708] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:45:59,709] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,728] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:45:59,746] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,751] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/passports/PASS-A99149930C83 "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,771] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-A99149930C83/action "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,791] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-A6065B14AAE1/action "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,808] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:45:59,828] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-CF730AC3F285/action "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,850] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-CF730AC3F285/action "HTTP/1.1 200 OK"
+[2026-10-04 21:45:59,854] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid governance action: 'INVALID_RANDOM_ACTION'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:45:59,855] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-A99149930C83/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:45:59,857] [ERROR] [evidence_intelligence:32] Database session error: 404: Passport PASS-DOESNOTEXIST not found
+[2026-10-04 21:45:59,857] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-DOESNOTEXIST/action "HTTP/1.1 404 Not Found"
+[2026-10-04 21:46:19,774] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:46:20,267] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-04 21:46:20,267] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-04 21:46:20,275] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-04 21:46:20,298] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 10:23:01,806] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 10:23:02,944] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-05 10:23:02,944] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-05 10:23:02,989] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-05 10:23:03,041] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 20:06:15,290] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 20:06:23,475] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 20:06:56,921] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 20:06:57,449] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-05 20:06:57,449] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-05 20:06:57,480] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-05 20:06:57,527] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 20:08:47,876] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 20:08:48,520] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-05 20:08:48,520] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-05 20:08:48,528] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-05 20:08:48,551] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 21:07:31,729] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:07:32,525] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 21:07:32,531] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 21:07:32,533] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:07:32,534] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:07:32,535] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:07:32,535] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:07:32,807] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,046] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,049] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,052] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,059] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,064] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,095] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 21:07:33,098] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:07:33,099] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:07:33,123] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-48608/cameras "HTTP/1.1 201 Created"
+[2026-10-05 21:07:33,126] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:07:33,126] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-48608/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:07:33,145] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-48608/zones "HTTP/1.1 200 OK"
+[2026-10-05 21:07:33,147] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:07:33,148] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-48608/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:07:33,151] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:07:33,152] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:10,783] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:23:11,393] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,401] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,403] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:11,404] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:11,406] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:11,406] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:11,670] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,908] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,912] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,915] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,922] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,929] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:23:11,956] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 21:23:11,959] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:11,959] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:11,990] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-21056/cameras "HTTP/1.1 201 Created"
+[2026-10-05 21:23:11,992] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:11,993] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-21056/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:12,012] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-21056/zones "HTTP/1.1 200 OK"
+[2026-10-05 21:23:12,015] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:12,015] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-21056/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:12,019] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:23:12,019] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:20,221] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:23:20,945] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:21,182] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:21,200] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:21,201] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:21,202] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:21,202] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:21,204] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:21,204] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:21,205] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:21,205] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:21,246] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 21:23:21,249] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:23:21,250] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-37AD1D83EA4D/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:21,273] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-37AD1D83EA4D/action "HTTP/1.1 200 OK"
+[2026-10-05 21:23:21,287] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 21:23:21,293] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-37AD1D83EA4D "HTTP/1.1 200 OK"
+[2026-10-05 21:23:21,297] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:21,297] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:38,269] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:23:38,757] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 21:23:38,764] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 21:23:38,766] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:38,767] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:38,769] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:38,769] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:39,027] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,264] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,268] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,271] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,280] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,286] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,420] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 21:23:39,423] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:39,424] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:39,446] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-12192/cameras "HTTP/1.1 201 Created"
+[2026-10-05 21:23:39,449] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:39,450] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-12192/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:39,469] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-12192/zones "HTTP/1.1 200 OK"
+[2026-10-05 21:23:39,472] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:39,472] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-12192/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:39,476] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:23:39,477] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:46,059] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:23:46,798] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:47,038] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:23:47,057] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:47,057] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:47,059] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:47,059] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:47,061] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:47,061] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:47,062] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:23:47,063] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:23:47,094] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 21:23:47,097] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:23:47,097] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B2591D31A89C/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:23:47,119] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B2591D31A89C/action "HTTP/1.1 200 OK"
+[2026-10-05 21:23:47,133] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 21:23:47,139] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-B2591D31A89C "HTTP/1.1 200 OK"
+[2026-10-05 21:23:47,144] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:23:47,144] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:22,268] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:25:22,778] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 21:25:22,784] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 21:25:22,786] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:22,787] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:22,788] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:22,789] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:23,045] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,286] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,290] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,293] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,302] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,309] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,332] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 21:25:23,334] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:25:23,335] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:23,359] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-25712/cameras "HTTP/1.1 201 Created"
+[2026-10-05 21:25:23,362] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:25:23,362] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-25712/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:23,380] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-25712/zones "HTTP/1.1 200 OK"
+[2026-10-05 21:25:23,383] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:25:23,383] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-25712/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:23,388] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:25:23,388] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:29,918] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:25:30,642] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:25:30,879] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:25:30,897] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:30,897] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:30,898] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:30,899] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:30,900] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:30,900] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:30,901] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:25:30,902] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:25:30,930] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 21:25:30,933] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:25:30,933] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-C7E5809271AF/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:25:30,959] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-C7E5809271AF/action "HTTP/1.1 200 OK"
+[2026-10-05 21:25:30,973] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 21:25:30,978] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-C7E5809271AF "HTTP/1.1 200 OK"
+[2026-10-05 21:25:30,983] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:25:30,983] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:54:35,082] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:54:35,588] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 21:54:35,595] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 21:54:35,597] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:54:35,597] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:54:35,599] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:54:35,599] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:54:35,934] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,173] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,176] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,180] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,189] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,194] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,250] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 21:54:36,254] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:54:36,254] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:54:36,278] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-4904/cameras "HTTP/1.1 201 Created"
+[2026-10-05 21:54:36,280] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:54:36,281] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-4904/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:54:36,299] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-4904/zones "HTTP/1.1 200 OK"
+[2026-10-05 21:54:36,302] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:54:36,302] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-4904/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:54:36,306] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:54:36,307] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:55:29,692] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 21:55:30,461] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:55:30,715] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 21:55:30,736] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:55:30,737] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:55:30,738] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:55:30,739] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:55:30,740] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:55:30,740] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:55:30,741] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 21:55:30,742] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 21:55:30,846] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 21:55:30,850] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 21:55:30,850] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B190292A17B2/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 21:55:30,962] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B190292A17B2/action "HTTP/1.1 200 OK"
+[2026-10-05 21:55:30,988] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 21:55:30,996] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-B190292A17B2 "HTTP/1.1 200 OK"
+[2026-10-05 21:55:31,001] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 21:55:31,002] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:30:41,643] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:30:42,709] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 22:30:42,725] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 22:30:42,728] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:30:42,729] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:30:42,731] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:30:42,732] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:30:43,150] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,477] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,480] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,484] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,498] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,506] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,542] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 22:30:43,546] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:30:43,547] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:30:43,575] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-49812/cameras "HTTP/1.1 201 Created"
+[2026-10-05 22:30:43,579] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:30:43,580] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-49812/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:30:43,604] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-49812/zones "HTTP/1.1 200 OK"
+[2026-10-05 22:30:43,608] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:30:43,609] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-49812/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:30:43,614] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:30:43,614] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:31:24,089] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:31:25,141] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:31:25,455] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:31:25,484] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:31:25,485] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:31:25,488] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:31:25,489] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:31:25,491] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:31:25,492] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:31:25,494] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:31:25,494] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:31:25,538] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 22:31:25,542] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:31:25,542] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-627A5E724181/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:31:25,571] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-627A5E724181/action "HTTP/1.1 200 OK"
+[2026-10-05 22:31:25,590] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 22:31:25,598] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-627A5E724181 "HTTP/1.1 200 OK"
+[2026-10-05 22:31:25,603] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:31:25,604] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:32:59,770] [ERROR] [evidence_intelligence:32] Database session error: 1 validation error:
+  {'type': 'missing', 'loc': ('body', 'reviewer'), 'msg': 'Field required', 'input': {'action': 'CONFIRM', 'reason': 'Evidence reviewed by officer and verified against attendance logs.'}}
+
+  File "D:\Evidence Intelligence\backend\app\api\v1\governance.py", line 77, in execute_governance_action
+    POST /api/v1/governance/passports/{passport_id}/action
+[2026-10-05 22:34:49,815] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:34:50,738] [INFO] [evidence_intelligence:17] Starting Evidence Intelligence API in [development] mode...
+[2026-10-05 22:34:50,738] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-05 22:34:50,753] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-05 22:34:50,786] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 22:34:59,236] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:34:59,244] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:35:06,219] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:35:06,879] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 22:35:06,900] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 22:35:06,904] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:06,905] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:06,907] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:06,907] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:07,235] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,569] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,572] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,576] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,591] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,598] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,633] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 22:35:07,638] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:35:07,638] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:35:07,668] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-47688/cameras "HTTP/1.1 201 Created"
+[2026-10-05 22:35:07,674] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:35:07,675] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-47688/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:35:07,696] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-47688/zones "HTTP/1.1 200 OK"
+[2026-10-05 22:35:07,700] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:35:07,701] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-47688/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:35:07,706] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:35:07,707] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:35:17,519] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:35:18,715] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:35:19,125] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:35:19,157] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:19,157] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:19,159] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:19,160] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:19,161] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:19,162] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:19,163] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:35:19,163] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:35:19,202] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 22:35:19,206] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:35:19,207] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-004546A7105F/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:35:19,236] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-004546A7105F/action "HTTP/1.1 200 OK"
+[2026-10-05 22:35:19,256] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 22:35:19,264] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-004546A7105F "HTTP/1.1 200 OK"
+[2026-10-05 22:35:19,269] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:35:19,270] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:48:33,275] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:48:33,275] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:48:33,413] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:51:43,257] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:51:54,826] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:52:01,306] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:52:11,554] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:52:14,269] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:52:14,316] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:52:14,317] [INFO] [evidence_intelligence:37] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:52:14,326] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:53:03,631] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:53:06,286] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:53:06,334] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:53:06,334] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:53:06,340] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:53:36,012] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:53:47,266] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:53:49,916] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:53:49,964] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:53:49,965] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:53:49,971] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:53:57,278] [INFO] [evidence_intelligence:74] Video source reached end of stream after 200 frames.
+[2026-10-05 22:53:57,283] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 22:54:10,995] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:54:13,445] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:54:13,494] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:54:13,494] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:54:13,500] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_persistent.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:54:20,301] [INFO] [evidence_intelligence:74] Video source reached end of stream after 200 frames.
+[2026-10-05 22:54:20,306] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 22:54:20,306] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:54:20,360] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:54:20,360] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:54:20,368] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_transient.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:54:21,805] [INFO] [evidence_intelligence:74] Video source reached end of stream after 60 frames.
+[2026-10-05 22:54:21,813] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 22:54:42,824] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:54:42,854] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:55:01,984] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:55:04,517] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:55:04,564] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:55:04,564] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:55:04,571] [INFO] [evidence_intelligence:44] Opened video stream: D:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:56:05,433] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:56:07,988] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:56:08,049] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:56:08,050] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:56:08,072] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:56:15,547] [INFO] [evidence_intelligence:74] Video source reached end of stream after 200 frames.
+[2026-10-05 22:56:15,552] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 22:56:32,555] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:56:35,092] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 22:56:35,143] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 22:56:35,143] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 22:56:35,151] [INFO] [evidence_intelligence:44] Opened video stream: backend/test_videos/scenario_freeze.mp4 (Target inference FPS: 3.0)
+[2026-10-05 22:56:39,838] [INFO] [evidence_intelligence:74] Video source reached end of stream after 100 frames.
+[2026-10-05 22:56:39,842] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 22:56:49,339] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:56:50,021] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,028] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,029] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:56:50,030] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:56:50,032] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:56:50,033] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:56:50,439] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,808] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,811] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,815] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,829] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,838] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,875] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 22:56:50,879] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:56:50,879] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:56:50,911] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-11156/cameras "HTTP/1.1 201 Created"
+[2026-10-05 22:56:50,916] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:56:50,917] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-11156/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:56:50,939] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-11156/zones "HTTP/1.1 200 OK"
+[2026-10-05 22:56:50,942] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:56:50,943] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-11156/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:56:50,948] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:56:50,949] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:57:00,852] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 22:57:01,952] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:57:02,326] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 22:57:02,362] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:57:02,362] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:57:02,367] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:57:02,367] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:57:02,370] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:57:02,370] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:57:02,372] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 22:57:02,372] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 22:57:02,410] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 22:57:02,415] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:57:02,416] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-7E31DFBAFB6F/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:57:02,442] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-7E31DFBAFB6F/action "HTTP/1.1 200 OK"
+[2026-10-05 22:57:02,461] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 22:57:02,468] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-7E31DFBAFB6F "HTTP/1.1 200 OK"
+[2026-10-05 22:57:02,473] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 22:57:02,474] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 22:57:13,318] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 22:57:13,329] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:00:01,579] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:00:05,295] [INFO] [evidence_intelligence:18] Starting Evidence Intelligence API in [development] mode...
+[2026-10-05 23:00:05,295] [INFO] [evidence_intelligence:10] Initializing database schema...
+[2026-10-05 23:00:05,310] [INFO] [evidence_intelligence:25] Database tables verified.
+[2026-10-05 23:00:05,343] [INFO] [evidence_intelligence:137] Database initialization and seed complete.
+[2026-10-05 23:01:11,528] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:01:14,885] [ERROR] [evidence_intelligence:32] Database session error: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('body',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': b'username=officer_rajesh&password=Officer%40123'}
+
+  File "D:\Evidence Intelligence\backend\app\api\v1\auth.py", line 12, in login
+    POST /api/v1/auth/login
+[2026-10-05 23:01:14,887] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 422 Unprocessable Entity"
+[2026-10-05 23:01:46,143] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:01:49,761] [ERROR] [evidence_intelligence:32] Database session error: 401: Incorrect username or password
+[2026-10-05 23:01:49,762] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:02:40,667] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:02:44,349] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:02:44,376] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-05 23:02:44,384] [INFO] [evidence_intelligence:148] Starting video analysis on camera 'CAM-LAB-01' using clip 'scenario_classroom_class.mp4' (Max frames: 30, Target FPS: 3.0, Actor: officer_rajesh)
+[2026-10-05 23:02:44,390] [INFO] [evidence_intelligence:44] Opened video stream: D:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 23:02:44,390] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 23:02:44,454] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 23:02:44,454] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 23:02:49,262] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 23:02:49,352] [INFO] [evidence_intelligence:342] Video analysis completed for camera 'CAM-LAB-01': Verdict=VERIFIED, Score=0.922, Passport=PASS-509A3B1DF57E, Duration=4.9s
+[2026-10-05 23:02:49,355] [ERROR] [evidence_intelligence:32] Database session error: (sqlalchemy.exc.MissingGreenlet) greenlet_spawn has not been called; can't call await_() here. Was IO attempted in an unexpected place?
+[SQL: SELECT rooms.room_id, rooms.centre_id, rooms.room_name, rooms.room_type, rooms.seating_capacity, rooms.camera_id, rooms.rtsp_stream_uri, rooms.zones_geojson, rooms.created_at 
+FROM rooms 
+WHERE rooms.room_id = ?]
+[parameters: [{'pk_1': 'ROOM-101'}]]
+(Background on this error at: https://sqlalche.me/e/21/xd2s)
+[2026-10-05 23:04:28,427] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:04:32,441] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:04:32,463] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-05 23:04:32,469] [INFO] [evidence_intelligence:152] Starting video analysis on camera 'CAM-LAB-01' using clip 'scenario_classroom_class.mp4' (Max frames: 30, Target FPS: 3.0, Actor: officer_rajesh)
+[2026-10-05 23:04:32,475] [INFO] [evidence_intelligence:44] Opened video stream: D:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 23:04:32,476] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 23:04:32,541] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 23:04:32,541] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 23:04:37,205] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 23:04:37,288] [INFO] [evidence_intelligence:347] Video analysis completed for camera 'CAM-LAB-01': Verdict=VERIFIED, Score=0.922, Passport=PASS-B6F56394ACF4, Duration=4.75s
+[2026-10-05 23:04:37,296] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 200 OK"
+[2026-10-05 23:04:37,318] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-B6F56394ACF4 "HTTP/1.1 200 OK"
+[2026-10-05 23:04:37,685] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:04:37,692] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:04:37,695] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:04:37,709] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:04:37,709] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B6F56394ACF4/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:04:37,714] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:04:37,715] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:04:37,716] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:04:37,717] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:04:37,722] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: '../../etc/passwd'
+[2026-10-05 23:04:37,724] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: '../../etc/passwd'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:04:37,724] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:04:37,728] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: 'malicious_script.sh'
+[2026-10-05 23:04:37,729] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: 'malicious_script.sh'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:04:37,729] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:04:37,737] [WARNING] [evidence_intelligence:114] Camera analysis rejected: Camera ID 'CAM-NONEXISTENT-9999' not found.
+[2026-10-05 23:04:37,737] [ERROR] [evidence_intelligence:32] Database session error: 404: Camera ID 'CAM-NONEXISTENT-9999' not found
+[2026-10-05 23:04:37,738] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-NONEXISTENT-9999/analyze-clip "HTTP/1.1 404 Not Found"
+[2026-10-05 23:04:37,743] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/etc/passwd/raw "HTTP/1.1 404 Not Found"
+[2026-10-05 23:04:52,632] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:04:55,924] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 23:04:55,933] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 23:04:55,936] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:04:55,937] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:04:55,939] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:04:55,939] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:04:56,341] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,679] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,683] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,688] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,705] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,712] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,744] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 23:04:56,748] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:04:56,748] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:04:56,776] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-7868/cameras "HTTP/1.1 201 Created"
+[2026-10-05 23:04:56,779] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:04:56,780] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-7868/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:04:56,801] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-7868/zones "HTTP/1.1 200 OK"
+[2026-10-05 23:04:56,804] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:04:56,805] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-7868/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:04:56,810] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:04:56,811] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:05:04,246] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:05:07,975] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:05:08,309] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:05:08,343] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:05:08,343] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:05:08,345] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:05:08,346] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:05:08,347] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:05:08,348] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:05:08,349] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:05:08,349] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:05:08,395] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 23:05:08,398] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:05:08,399] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-54E81315DBA7/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:05:08,426] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-54E81315DBA7/action "HTTP/1.1 200 OK"
+[2026-10-05 23:05:08,443] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 23:05:08,451] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-54E81315DBA7 "HTTP/1.1 200 OK"
+[2026-10-05 23:05:08,455] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:05:08,456] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:05:16,515] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:05:16,523] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:05:24,208] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:05:27,875] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:05:27,914] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-05 23:05:27,928] [INFO] [evidence_intelligence:152] Starting video analysis on camera 'CAM-LAB-01' using clip 'scenario_classroom_class.mp4' (Max frames: 30, Target FPS: 3.0, Actor: officer_rajesh)
+[2026-10-05 23:05:27,936] [INFO] [evidence_intelligence:44] Opened video stream: D:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 23:05:27,936] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 23:05:27,993] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 23:05:27,993] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 23:05:32,720] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 23:05:32,801] [INFO] [evidence_intelligence:347] Video analysis completed for camera 'CAM-LAB-01': Verdict=VERIFIED, Score=0.922, Passport=PASS-7FFB0DB0F114, Duration=4.81s
+[2026-10-05 23:05:32,807] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 200 OK"
+[2026-10-05 23:05:32,825] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-7FFB0DB0F114 "HTTP/1.1 200 OK"
+[2026-10-05 23:05:33,149] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:05:33,155] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:05:33,160] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:05:33,173] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:05:33,174] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-7FFB0DB0F114/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:05:33,179] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:05:33,180] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:05:33,181] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:05:33,181] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:05:33,186] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: '../../etc/passwd'
+[2026-10-05 23:05:33,187] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: '../../etc/passwd'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:05:33,188] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:05:33,194] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: 'malicious_script.sh'
+[2026-10-05 23:05:33,195] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: 'malicious_script.sh'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:05:33,195] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:05:33,200] [WARNING] [evidence_intelligence:114] Camera analysis rejected: Camera ID 'CAM-NONEXISTENT-9999' not found.
+[2026-10-05 23:05:33,201] [ERROR] [evidence_intelligence:32] Database session error: 404: Camera ID 'CAM-NONEXISTENT-9999' not found
+[2026-10-05 23:05:33,202] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-NONEXISTENT-9999/analyze-clip "HTTP/1.1 404 Not Found"
+[2026-10-05 23:05:33,205] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/etc/passwd/raw "HTTP/1.1 404 Not Found"
+[2026-10-05 23:10:26,154] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:10:29,638] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-05 23:10:29,650] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-05 23:10:29,654] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:29,655] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:29,656] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:29,657] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:30,002] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,313] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,318] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,321] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,338] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,346] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,380] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-05 23:10:30,383] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:10:30,384] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:30,410] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-18592/cameras "HTTP/1.1 201 Created"
+[2026-10-05 23:10:30,414] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:10:30,415] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-18592/cameras "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:30,437] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-18592/zones "HTTP/1.1 200 OK"
+[2026-10-05 23:10:30,441] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:10:30,441] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-18592/zones "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:30,445] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:10:30,446] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FAKE-01/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:41,808] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:10:45,658] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:10:46,041] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:10:46,076] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:46,077] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-TEST-99/action "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:46,079] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:46,079] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:46,081] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:46,082] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:46,084] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:10:46,084] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:10:46,130] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-05 23:10:46,135] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:10:46,136] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-C226ABB840BB/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:46,163] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-C226ABB840BB/action "HTTP/1.1 200 OK"
+[2026-10-05 23:10:46,179] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-05 23:10:46,187] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-C226ABB840BB "HTTP/1.1 200 OK"
+[2026-10-05 23:10:46,191] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:10:46,191] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:10:58,891] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:10:58,897] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:11:13,393] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-05 23:11:17,139] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:11:17,163] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-05 23:11:17,174] [INFO] [evidence_intelligence:152] Starting video analysis on camera 'CAM-LAB-01' using clip 'scenario_classroom_class.mp4' (Max frames: 30, Target FPS: 3.0, Actor: officer_rajesh)
+[2026-10-05 23:11:17,181] [INFO] [evidence_intelligence:44] Opened video stream: D:\Evidence Intelligence\backend\test_videos\scenario_classroom_class.mp4 (Target inference FPS: 3.0)
+[2026-10-05 23:11:17,181] [INFO] [evidence_intelligence:34] Initializing PerceptionEngine with yolov8n.pt and bytetrack.yaml...
+[2026-10-05 23:11:17,242] [INFO] [evidence_intelligence:36] PerceptionEngine initialized successfully.
+[2026-10-05 23:11:17,242] [INFO] [evidence_intelligence:39] EdgeAIPipeline assembled and ready.
+[2026-10-05 23:11:21,945] [INFO] [evidence_intelligence:51] Video stream closed.
+[2026-10-05 23:11:22,027] [INFO] [evidence_intelligence:347] Video analysis completed for camera 'CAM-LAB-01': Verdict=VERIFIED, Score=0.922, Passport=PASS-B4CF9E618D49, Duration=4.79s
+[2026-10-05 23:11:22,036] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 200 OK"
+[2026-10-05 23:11:22,055] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports/PASS-B4CF9E618D49 "HTTP/1.1 200 OK"
+[2026-10-05 23:11:22,405] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-05 23:11:22,409] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:11:22,415] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-05 23:11:22,428] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['OFFICER']
+[2026-10-05 23:11:22,429] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-B4CF9E618D49/action "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:11:22,434] [ERROR] [evidence_intelligence:32] Database session error: 403: Operation not permitted. Required roles: ['ADMIN']
+[2026-10-05 23:11:22,435] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 403 Forbidden"
+[2026-10-05 23:11:22,437] [ERROR] [evidence_intelligence:32] Database session error: 401: Could not validate credentials or token expired
+[2026-10-05 23:11:22,437] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 401 Unauthorized"
+[2026-10-05 23:11:22,443] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: '../../etc/passwd'
+[2026-10-05 23:11:22,443] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: '../../etc/passwd'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:11:22,444] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:11:22,452] [WARNING] [evidence_intelligence:126] Rejected non-allowlisted video clip: 'malicious_script.sh'
+[2026-10-05 23:11:22,453] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid or non-allowlisted video clip: 'malicious_script.sh'. Allowed clips: ['scenario_classroom_class.mp4', 'scenario_persistent.mp4', 'scenario_transient.mp4', 'scenario_freeze.mp4']
+[2026-10-05 23:11:22,454] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-LAB-01/analyze-clip "HTTP/1.1 400 Bad Request"
+[2026-10-05 23:11:22,459] [WARNING] [evidence_intelligence:114] Camera analysis rejected: Camera ID 'CAM-NONEXISTENT-9999' not found.
+[2026-10-05 23:11:22,460] [ERROR] [evidence_intelligence:32] Database session error: 404: Camera ID 'CAM-NONEXISTENT-9999' not found
+[2026-10-05 23:11:22,460] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/cameras/CAM-NONEXISTENT-9999/analyze-clip "HTTP/1.1 404 Not Found"
+[2026-10-05 23:11:22,464] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/etc/passwd/raw "HTTP/1.1 404 Not Found"

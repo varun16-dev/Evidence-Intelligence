@@ -1,0 +1,217 @@
+[2026-10-04 20:09:44,182] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:09:45,023] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,024] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,026] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,027] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,028] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,029] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history "HTTP/1.1 200 OK"
+[2026-10-04 20:09:45,030] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history/EVAL-1ECA36B3C4C6 "HTTP/1.1 200 OK"
+[2026-10-04 20:14:14,648] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:14:15,475] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 20:14:15,484] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 20:14:15,525] [ERROR] [evidence_intelligence:32] Database session error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id, users.username, users.email, users.hashed_password, users.role, users.is_active, users.created_at 
+FROM users 
+WHERE users.username = ?]
+[parameters: ('admin',)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+[2026-10-04 20:15:12,178] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:15:12,847] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 20:15:12,855] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 20:15:12,878] [ERROR] [evidence_intelligence:32] Database session error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id, users.username, users.email, users.hashed_password, users.role, users.is_active, users.created_at 
+FROM users 
+WHERE users.username = ?]
+[parameters: ('admin',)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+[2026-10-04 20:16:24,680] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:16:25,503] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 20:16:25,515] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 20:16:25,979] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-04 20:16:25,984] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-04 20:16:26,005] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-04 20:16:26,012] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-04 20:16:26,039] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-04 20:16:26,068] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-27828/cameras "HTTP/1.1 201 Created"
+[2026-10-04 20:16:26,089] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-27828/zones "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,103] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:16:47,766] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,767] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,768] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,769] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,770] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,772] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history "HTTP/1.1 200 OK"
+[2026-10-04 20:16:47,773] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history/EVAL-6C21D73FED5F "HTTP/1.1 200 OK"
+[2026-10-04 20:29:24,911] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:30:49,323] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:30:50,113] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:30:50,185] [ERROR] [evidence_intelligence:32] Database session error: 1 validation error:
+  {'type': 'get_attribute_error', 'loc': ('response', 'audit_logs'), 'msg': "Error extracting attribute: StatementError: (sqlalchemy.exc.MissingGreenlet) greenlet_spawn has not been called; can't call await_() here. Was IO attempted in an unexpected place?\n[SQL: SELECT audit_trail.audit_id, audit_trail.passport_id, audit_trail.step_sequence, audit_trail.actor_id, audit_trail.actor_role, audit_trail.action_performed, audit_trail.notes, audit_trail.client_ip_or_host, audit_trail.timestamp, audit_trail.signed_hash \nFROM audit_trail \nWHERE ? = audit_trail.passport_id]\n[parameters: [{'%(1369899851824 param)s': 'PASS-DA456F5D585F'}]]\n(Background on this error at: https://sqlalche.me/e/21/xd2s)", 'input': <backend.app.db.models.EvidencePassport object at 0x0000013EF45F5400>, 'ctx': {'error': "StatementError: (sqlalchemy.exc.MissingGreenlet) greenlet_spawn has not been called; can't call await_() here. Was IO attempted in an unexpected place?\n[SQL: SELECT audit_trail.audit_id, audit_trail.passport_id, audit_trail.step_sequence, audit_trail.actor_id, audit_trail.actor_role, audit_trail.action_performed, audit_trail.notes, audit_trail.client_ip_or_host, audit_trail.timestamp, audit_trail.signed_hash \nFROM audit_trail \nWHERE ? = audit_trail.passport_id]\n[parameters: [{'%(1369899851824 param)s': 'PASS-DA456F5D585F'}]]\n(Background on this error at: https://sqlalche.me/e/21/xd2s)"}}
+
+  File "D:\Evidence Intelligence\backend\app\api\v1\passports.py", line 17, in generate_passport
+    POST /api/v1/passports/generate
+[2026-10-04 20:31:44,846] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:31:45,593] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:31:45,667] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 20:31:45,687] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-75326DA84ED8/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:33:40,138] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:33:41,068] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:33:41,140] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 20:33:41,161] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6DF68437F2EA/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:33:41,200] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6DF68437F2EA/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:33:41,252] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6DF68437F2EA/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:33:41,303] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6DF68437F2EA/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 20:36:14,600] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:36:15,613] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:36:15,710] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 20:36:15,731] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-45AAEE05EDCD/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:36:15,766] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-45AAEE05EDCD/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:36:15,812] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-45AAEE05EDCD/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:36:15,849] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-45AAEE05EDCD/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 20:36:15,857] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports?verdict=REVIEW "HTTP/1.1 200 OK"
+[2026-10-04 20:39:50,309] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:39:51,359] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:39:51,486] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 20:39:51,513] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-B24ADA6193BE/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:39:51,550] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-B24ADA6193BE/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:39:51,601] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-B24ADA6193BE/verify "HTTP/1.1 200 OK"
+[2026-10-04 20:39:51,648] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-B24ADA6193BE/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 20:39:51,657] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports?verdict=REVIEW "HTTP/1.1 200 OK"
+[2026-10-04 20:40:00,103] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:40:00,954] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 20:40:00,971] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 20:40:01,419] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-04 20:40:01,424] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-04 20:40:01,440] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-04 20:40:01,449] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-04 20:40:01,509] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-04 20:40:01,571] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-49764/cameras "HTTP/1.1 201 Created"
+[2026-10-04 20:40:01,603] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-49764/zones "HTTP/1.1 200 OK"
+[2026-10-04 20:40:03,667] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 20:40:04,449] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,450] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,452] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,453] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,454] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,455] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history "HTTP/1.1 200 OK"
+[2026-10-04 20:40:04,457] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/evaluate/history/EVAL-31C7E79954B8 "HTTP/1.1 200 OK"
+[2026-10-04 21:08:35,526] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:08:36,115] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,158] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:36,159] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,176] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:36,177] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,191] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:36,207] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,212] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/passports/PASS-E15F3105A7A9 "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,232] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-E15F3105A7A9/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,249] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-99F33937EB6D/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,266] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:36,319] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-A3ED1D78AFEE/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,344] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-A3ED1D78AFEE/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:36,350] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid governance action: 'INVALID_RANDOM_ACTION'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:08:36,351] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-E15F3105A7A9/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:08:36,354] [ERROR] [evidence_intelligence:32] Database session error: 400: Passport PASS-DOESNOTEXIST not found
+[2026-10-04 21:08:36,354] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-DOESNOTEXIST/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:08:53,542] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:08:54,016] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,058] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:54,059] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,079] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:54,081] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,100] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:54,116] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,121] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/passports/PASS-047CAF4AC3B1 "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,141] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-047CAF4AC3B1/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,162] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-9DEB7FE41612/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,181] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:08:54,201] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-9C8CC513D1F6/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,219] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-9C8CC513D1F6/action "HTTP/1.1 200 OK"
+[2026-10-04 21:08:54,223] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid governance action: 'INVALID_RANDOM_ACTION'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:08:54,223] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-047CAF4AC3B1/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:08:54,226] [ERROR] [evidence_intelligence:32] Database session error: 404: Passport PASS-DOESNOTEXIST not found
+[2026-10-04 21:08:54,226] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-DOESNOTEXIST/action "HTTP/1.1 404 Not Found"
+[2026-10-04 21:09:07,665] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:09:08,188] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:09:08,239] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:09:08,256] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2C3853ED77DB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:09:08,284] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2C3853ED77DB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:09:08,327] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2C3853ED77DB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:09:08,345] [ERROR] [evidence_intelligence:32] Database session error: 404: Invalid governance action: 'INSPECTION_MANDATED'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:09:08,346] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2C3853ED77DB/adjudicate "HTTP/1.1 404 Not Found"
+[2026-10-04 21:10:39,646] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:10:40,225] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:10:40,268] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:10:40,285] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2BFFF08D8CB3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:10:40,314] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2BFFF08D8CB3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:10:40,356] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2BFFF08D8CB3/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:10:40,392] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-2BFFF08D8CB3/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 21:11:19,915] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:11:20,385] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:11:20,433] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:11:20,450] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6C00393F82FB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:11:20,480] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6C00393F82FB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:11:20,523] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6C00393F82FB/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:11:20,556] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-6C00393F82FB/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 21:12:07,943] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:12:08,410] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:12:08,456] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:12:08,472] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-FF8AFA70069B/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:12:08,503] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-FF8AFA70069B/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:12:08,547] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-FF8AFA70069B/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:12:08,581] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-FF8AFA70069B/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 21:12:08,589] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports?verdict=REVIEW "HTTP/1.1 200 OK"
+[2026-10-04 21:12:13,829] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:12:14,318] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,366] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:12:14,368] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,386] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:12:14,387] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,405] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:12:14,423] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,427] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/passports/PASS-8247AEE954A6 "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,446] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-8247AEE954A6/action "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,464] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-E2BA20A3BF41/action "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,480] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:12:14,498] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-E636F4EB2FD9/action "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,519] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-E636F4EB2FD9/action "HTTP/1.1 200 OK"
+[2026-10-04 21:12:14,523] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid governance action: 'INVALID_RANDOM_ACTION'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:12:14,523] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-8247AEE954A6/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:12:14,526] [ERROR] [evidence_intelligence:32] Database session error: 404: Passport PASS-DOESNOTEXIST not found
+[2026-10-04 21:12:14,526] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-DOESNOTEXIST/action "HTTP/1.1 404 Not Found"
+[2026-10-04 21:19:23,109] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:19:23,679] [INFO] [httpx:1740] HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,686] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/health "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,938] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/auth/login "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,941] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/auth/me "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,949] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/centres "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,953] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/cameras "HTTP/1.1 200 OK"
+[2026-10-04 21:19:23,976] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres "HTTP/1.1 201 Created"
+[2026-10-04 21:19:24,000] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/centres/TC-TEST-44404/cameras "HTTP/1.1 201 Created"
+[2026-10-04 21:19:24,019] [INFO] [httpx:1740] HTTP Request: PUT http://testserver/api/v1/cameras/CAM-BLR-44404/zones "HTTP/1.1 200 OK"
+[2026-10-04 21:19:51,750] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:19:52,254] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:19:52,299] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:19:52,317] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-39CA58A30B23/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:19:52,347] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-39CA58A30B23/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:19:52,386] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-39CA58A30B23/verify "HTTP/1.1 200 OK"
+[2026-10-04 21:19:52,421] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/PASS-39CA58A30B23/adjudicate "HTTP/1.1 200 OK"
+[2026-10-04 21:19:52,430] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/passports?verdict=REVIEW "HTTP/1.1 200 OK"
+[2026-10-04 21:20:02,435] [INFO] [evidence_intelligence:38] Logging initialized with level: INFO
+[2026-10-04 21:20:02,899] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:20:02,950] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:20:02,951] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:20:02,969] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:20:02,970] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/evaluate/sufficiency "HTTP/1.1 200 OK"
+[2026-10-04 21:20:02,988] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:20:03,007] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/review-queue "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,011] [INFO] [httpx:1740] HTTP Request: GET http://testserver/api/v1/governance/passports/PASS-FF1B10489A8E "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,032] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FF1B10489A8E/action "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,052] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-C74A366508EC/action "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,070] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/passports/generate "HTTP/1.1 201 Created"
+[2026-10-04 21:20:03,091] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-6D7FA8EDF430/action "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,111] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-6D7FA8EDF430/action "HTTP/1.1 200 OK"
+[2026-10-04 21:20:03,115] [ERROR] [evidence_intelligence:32] Database session error: 400: Invalid governance action: 'INVALID_RANDOM_ACTION'. Must be CONFIRM, REJECT, or REQUEST INSPECTION.
+[2026-10-04 21:20:03,115] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-FF1B10489A8E/action "HTTP/1.1 400 Bad Request"
+[2026-10-04 21:20:03,117] [ERROR] [evidence_intelligence:32] Database session error: 404: Passport PASS-DOESNOTEXIST not found
+[2026-10-04 21:20:03,118] [INFO] [httpx:1740] HTTP Request: POST http://testserver/api/v1/governance/passports/PASS-DOESNOTEXIST/action "HTTP/1.1 404 Not Found"
