@@ -29,8 +29,10 @@ import {
   ClipAnalysisResponseData,
   fetchCameras,
   fetchTestClips,
-  analyzeCameraClip
+  analyzeCameraClip,
+  API_BASE_URL
 } from "@/lib/api";
+
 
 interface RealVideoPipelineViewProps {
   token: string;
@@ -429,9 +431,10 @@ export default function RealVideoPipelineView({
 
                 <div className="relative bg-[#070d18] border border-slate-800 rounded-xl overflow-hidden aspect-[4/3] max-h-[340px] flex items-center justify-center">
                   <img
-                    src={`http://localhost:8000/api/v1/evidence-vault/${analysisResult.passport_id}/${activeImageTab}`}
+                    src={`${API_BASE_URL}/evidence-vault/${analysisResult.passport_id}/${activeImageTab}`}
                     alt="Real Keyframe Evidence"
                     className="w-full h-full object-contain"
+
                     onError={(e) => {
                       // Fallback placeholder display if image fails to load
                       (e.target as any).style.display = "none";
